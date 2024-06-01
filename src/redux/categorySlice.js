@@ -6,7 +6,7 @@ const initialState = {
 
 export const getCategories = createAsyncThunk('category', async() => {
     const response = await fetch('https://fakestoreapi.com/products/categories');
-    const data = await response.json();
+    const data = response.json();
 
     return data;
 });
@@ -23,4 +23,4 @@ const categorySlice = createSlice({
     }
 });
 
-export default categorySlice.reducer
+export default categorySlice.reducer;

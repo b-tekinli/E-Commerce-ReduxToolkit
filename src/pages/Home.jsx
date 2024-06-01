@@ -18,7 +18,7 @@ const Home = () => {
                 <Products category={category} sort={sort} />
             </div>
         </div>
-    )
-}
+    );
+};
 
 export default Home;
