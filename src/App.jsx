@@ -11,7 +11,7 @@ function App() {
 
   return (
     <PageContainer>
-      <Router basename='/E-Commerce-ReduxToolkit'>
+      <Router>
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
